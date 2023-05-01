@@ -14,17 +14,17 @@ def numbers(nums):
 my_numbers = [10,20,40,50,90]
 print(numbers("nums"))
 
-# Write a Python function that takes a list of strings as input and 
+#6. Write a Python function that takes a list of strings as input and 
 # returns a new list with all the strings capitalized.
 
 def capital(names):
      empty = []
-     for name in names:
-         return empty.append(name.capitalise())
-names = ["cynthia","ishimwe","student"]
-print (capital(names))
+     for name in names:  
+      return empty.append(name.capitalize())
+result =capital(["cynthia","ishimwe","student"])
+print (result)
 
-# Write a Python function that takes a list of integers as input and
+#5. Write a Python function that takes a list of integers as input and
 # returns the highest value in the list.
 
 def highest(elements):
@@ -32,7 +32,7 @@ def highest(elements):
 elements = [10,30,80,67,45]
 print(highest(elements))
 
-# Write a Python function that takes a list of integers as input and
+#4. Write a Python function that takes a list of integers as input and
 # returns a new list with all the even numbers removed.
 
 def remove_even_numbers(numbs):
@@ -44,7 +44,7 @@ def remove_even_numbers(numbs):
 numbs = [10,20,67,45,37,17]
 print(remove_even_numbers(numbs))
 
-# Write a Python function that takes a string as input and returns the string reversed.
+#2. Write a Python function that takes a string as input and returns the string reversed.
 
 def reversed_string(country):
     county = "".join(reversed(country))
